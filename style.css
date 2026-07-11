@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*--- css properties for nav bar ---*/
 .logo {
     display: flex;
     align-items: center;
@@ -46,4 +47,39 @@ button {
     cursor: pointer;
     font-weight: 600;
 }
+/*--- css properties for hero section ---*/
+.hero-parent {
+    position: relative;     
+    width: 100%;
+}
 
+.hero-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;       
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    text-align: center;
+    color: white;
+    width: 70%;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    opacity: 0.9;
+}
+.hero-content button {
+    margin-top: 150px;
+}
