@@ -79,3 +79,25 @@ button {
 .hero-content button {
     margin-top: 150px;
 }
+
+/*css for speakers section*/
+.speakers-grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 24px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.headline {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.speakers {
+    padding-top: 80px;
+}
